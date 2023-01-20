@@ -1,17 +1,13 @@
 {
-  "name": "reactive-store",
-  "version": "1.0.0",
-  "description": "",
-  "main": "dist/index.js",
+  "name": "use-reactive-store",
+  "version": "1.0.1",
+  "description": "To leverage the power of reactive programming, we need to be able to store data in a reactive way. This lib provides a simple way to define a reactive store for your micro-frontend application.",
+  "main": "index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "tsup index.ts --format cjs,esm --dts",
-    "lint": "tsc --noEmit"
+  "directories": {
+    "example": "examples"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@changesets/cli": "^2.26.0",
     "@types/react": "^18.0.27",
@@ -20,5 +16,20 @@
   },
   "dependencies": {
     "react": "^18.2.0"
-  }
+  },
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "lint": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amm834/reactive-store.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amm834/reactive-store/issues"
+  },
+  "homepage": "https://github.com/amm834/reactive-store#readme"
 }
