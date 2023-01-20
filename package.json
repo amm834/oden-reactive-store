@@ -1,5 +1,5 @@
 {
-  "name": "use-reactive-store",
+  "name": "oden-reactive-store",
   "version": "1.0.1",
   "description": "To leverage the power of reactive programming, we need to be able to store data in a reactive way. This lib provides a simple way to define a reactive store for your micro-frontend application.",
   "main": "index.js",
