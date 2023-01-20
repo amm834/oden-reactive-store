@@ -25,7 +25,17 @@
     "type": "git",
     "url": "git+https://github.com/amm834/reactive-store.git"
   },
-  "keywords": [],
+  "keywords": [
+    "reactive-store",
+    "store",
+    "react",
+    "vue",
+    "observable",
+    "event-driven",
+    "micro-frontend",
+    "frmework-agnostic",
+    "oden"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
